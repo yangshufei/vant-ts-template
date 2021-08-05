@@ -1,4 +1,4 @@
 export const USER = {
-  LOGIN: '/login',
+  GET_USERINFO: '/user/info',
   LOGOUT: '/logout'
 }

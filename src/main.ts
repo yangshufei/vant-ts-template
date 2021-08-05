@@ -7,6 +7,10 @@ import 'amfe-flexible'
 import './styles/index.scss'
 import { vantPlugins } from './plugins/vant'
 
+// 使用mock数据
+const { mockXHR } = require('../mock')
+mockXHR()
+
 const app = createApp(App)
 app.use(vantPlugins)
 app.use(store, key)

@@ -1,5 +1,7 @@
 # vant-ts-template
 
+Vue3 + TypeScript + Vuex4.0 + vant + rem + axios
+
 ## Project setup
 ```
 npm install

@@ -26,8 +26,8 @@ axios.interceptors.response.use(
   },
   error => {
     console.log('err' + error) // for debug
-    Toast(error.message)
-    return Promise.reject(error)
+    Toast.fail(error.msg)
+    return Promise.reject(error.msg)
   }
 )
 
